@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffbe6"/>
+      <stop offset="100%" stop-color="#f4ecc6"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="95" fill="url(#g)" stroke="#7a5a1f" stroke-width="3"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#7a5a1f" stroke-width="1.5"/>
+  <path d="M55 130 L100 60 L145 130 Z" fill="#1f7a3a" stroke="#0e4a23" stroke-width="2"/>
+  <rect x="70" y="118" width="60" height="22" fill="#fff" stroke="#0e4a23" stroke-width="1.5"/>
+  <text x="100" y="135" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#0e4a23">NU</text>
+  <text x="100" y="30" text-anchor="middle" font-family="serif" font-size="9" fill="#7a5a1f">জাতীয় বিশ্ববিদ্যালয়</text>
+  <text x="100" y="180" text-anchor="middle" font-family="serif" font-size="9" fill="#7a5a1f">National University</text>
+</svg>

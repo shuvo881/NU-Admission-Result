@@ -1,0 +1,22 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, Arial, sans-serif;
+  line-height: 1.4;
+  color: #333;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #e8e8e8;
+  background-image:
+    repeating-linear-gradient(45deg, rgba(0,0,0,0.025) 0 1px, transparent 1px 6px),
+    repeating-linear-gradient(-45deg, rgba(0,0,0,0.025) 0 1px, transparent 1px 6px);
+}

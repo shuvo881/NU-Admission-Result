@@ -2,7 +2,11 @@ import { useState } from 'react'
 import nuLogo from '/nu-logo.svg'
 import './App.css'
 
-const ENDPOINT = '/nu-web/fetchAdmissionTestResultInformation'
+const NU_URL =
+  'http://app55.nu.edu.bd/nu-web/fetchAdmissionTestResultInformation'
+const ENDPOINT = import.meta.env.DEV
+  ? '/nu-web/fetchAdmissionTestResultInformation'
+  : `https://corsproxy.io/?${encodeURIComponent(NU_URL)}`
 
 function parseResult(html) {
   const doc = new DOMParser().parseFromString(html, 'text/html')

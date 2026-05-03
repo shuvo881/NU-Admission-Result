@@ -32,6 +32,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          VITE_API_PROXY: ${{ vars.VITE_API_PROXY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
